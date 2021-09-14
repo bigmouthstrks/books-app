@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iIG-Rk-DhD">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Edit Profile Field View Controller-->
+        <scene sceneID="MV2-5f-f1s">
+            <objects>
+                <viewController id="iIG-Rk-DhD" customClass="EditProfileFieldViewController" customModule="Matchbook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N7N-xn-Wp5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Fwd-To-324" userLabel="UpdatePasswordStackView">
+                                <rect key="frame" x="32" y="100" width="311" height="268.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actualizar Contraseña" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCd-Tf-nJl">
+                                        <rect key="frame" x="4" y="4" width="303" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nueva Contraseña" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfU-fj-jve">
+                                        <rect key="frame" x="4" y="33.5" width="303" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yFu-1H-hb3">
+                                        <rect key="frame" x="4" y="61" width="303" height="60"/>
+                                        <color key="backgroundColor" red="0.93451398610000003" green="0.95536190269999999" blue="0.966309011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="eoL-pW-1Jr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirme contraseña" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YrU-3e-mbq">
+                                        <rect key="frame" x="4" y="129" width="303" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hwf-FM-c6e">
+                                        <rect key="frame" x="4" y="156.5" width="303" height="60"/>
+                                        <color key="backgroundColor" red="0.93451398610000003" green="0.95536190269999999" blue="0.966309011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Hzi-U8-F5L"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3f-rd-EKQ">
+                                        <rect key="frame" x="4" y="224.5" width="303" height="40"/>
+                                        <color key="backgroundColor" red="0.0" green="0.38464343550000002" blue="0.54931557180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="bOd-iA-F1n"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.93333333330000001" green="0.95686274510000002" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Guardar"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Hwf-FM-c6e" firstAttribute="height" secondItem="yFu-1H-hb3" secondAttribute="height" id="RcC-Om-7qJ"/>
+                                </constraints>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="4" leading="4" bottom="4" trailing="4"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Hu5-21-Bur" userLabel="UpdateEmailStackView">
+                                <rect key="frame" x="32" y="100" width="311" height="268.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actualizar Correo Electrónico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPL-S0-vxy">
+                                        <rect key="frame" x="4" y="4" width="303" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nuevo Correo Electrónico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDY-Hg-UvY">
+                                        <rect key="frame" x="4" y="33.5" width="303" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fMt-UJ-LGE">
+                                        <rect key="frame" x="4" y="61" width="303" height="60"/>
+                                        <color key="backgroundColor" red="0.93451398610000003" green="0.95536190269999999" blue="0.966309011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="611-Ba-mRL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirme Correo Electrónico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhh-cE-GPh">
+                                        <rect key="frame" x="4" y="129" width="303" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uvh-0g-ZhA">
+                                        <rect key="frame" x="4" y="156.5" width="303" height="60"/>
+                                        <color key="backgroundColor" red="0.93451398610000003" green="0.95536190269999999" blue="0.966309011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="BWW-c3-204"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYf-lW-z9z">
+                                        <rect key="frame" x="4" y="224.5" width="303" height="40"/>
+                                        <color key="backgroundColor" red="0.0" green="0.38464343550000002" blue="0.54931557180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="e4S-yk-ioT"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.93333333330000001" green="0.95686274510000002" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Guardar"/>
+                                    </button>
+                                </subviews>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="4" leading="4" bottom="4" trailing="4"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ord-RF-Sy8"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Fwd-To-324" firstAttribute="top" secondItem="Ord-RF-Sy8" secondAttribute="top" constant="100" id="Iir-oL-rGG"/>
+                            <constraint firstItem="Hu5-21-Bur" firstAttribute="leading" secondItem="Ord-RF-Sy8" secondAttribute="leading" constant="32" id="KKC-FG-5lL"/>
+                            <constraint firstItem="uvh-0g-ZhA" firstAttribute="height" secondItem="yFu-1H-hb3" secondAttribute="height" id="Mab-Sb-GPu"/>
+                            <constraint firstItem="Fwd-To-324" firstAttribute="leading" secondItem="Ord-RF-Sy8" secondAttribute="leading" constant="32" id="Mjy-kG-17l"/>
+                            <constraint firstItem="Ord-RF-Sy8" firstAttribute="trailing" secondItem="Fwd-To-324" secondAttribute="trailing" constant="32" id="U4j-dv-pvt"/>
+                            <constraint firstItem="Ord-RF-Sy8" firstAttribute="trailing" secondItem="Hu5-21-Bur" secondAttribute="trailing" constant="32" id="mCe-Si-EJB"/>
+                            <constraint firstItem="fMt-UJ-LGE" firstAttribute="height" secondItem="yFu-1H-hb3" secondAttribute="height" id="t2r-ep-wFP"/>
+                            <constraint firstItem="Hu5-21-Bur" firstAttribute="top" secondItem="Ord-RF-Sy8" secondAttribute="top" constant="100" id="ubq-6q-njQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="confirmEmailTextField" destination="uvh-0g-ZhA" id="V22-q9-Bdl"/>
+                        <outlet property="confirmPasswordTextField" destination="Hwf-FM-c6e" id="ctI-es-7IJ"/>
+                        <outlet property="newEmailTextField" destination="fMt-UJ-LGE" id="9UK-nJ-L6b"/>
+                        <outlet property="newPassWordTextField" destination="yFu-1H-hb3" id="RQs-9x-AAF"/>
+                        <outlet property="updateEmailButton" destination="FYf-lW-z9z" id="gvI-60-iII"/>
+                        <outlet property="updateEmailStackView" destination="Hu5-21-Bur" id="I21-ws-hHa"/>
+                        <outlet property="updatePasswordButton" destination="h3f-rd-EKQ" id="7Nl-gL-2x1"/>
+                        <outlet property="updatePasswordStackView" destination="Fwd-To-324" id="5Cn-yJ-0aA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lUx-Sv-e1q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-178" y="49"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iIG-Rk-DhD">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Books View Controller-->
+        <scene sceneID="MV2-5f-f1s">
+            <objects>
+                <viewController id="iIG-Rk-DhD" customClass="BooksViewController" customModule="Matchbook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N7N-xn-Wp5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Mya-0E-vph">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.8953583836555481" green="0.95805007219314575" blue="0.97340863943099976" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="XtZ-4n-CTv">
+                                    <size key="itemSize" width="289" height="471"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="8" minY="8" maxX="8" maxY="8"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="bookItem" id="SbU-QW-2Gb" customClass="BookItemCell" customModule="Matchbook" customModuleProvider="target">
+                                        <rect key="frame" x="43" y="8" width="289" height="471"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="SLs-9e-CXV">
+                                            <rect key="frame" x="0.0" y="0.0" width="289" height="471"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="OD0-54-Lr0">
+                                                    <rect key="frame" x="0.0" y="0.0" width="289" height="471"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hp_cover" translatesAutoresizingMaskIntoConstraints="NO" id="mPY-Ze-PJK">
+                                                            <rect key="frame" x="0.0" y="0.0" width="289" height="462.5"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="mPY-Ze-PJK" secondAttribute="height" multiplier="1600:2560" id="O0K-x1-Fzj"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Tgq-iV-M5p">
+                                                            <rect key="frame" x="0.0" y="466.5" width="289" height="0.5"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="63V-uN-Xrh">
+                                                                    <rect key="frame" x="6" y="2" width="277" height="12.5"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="20" id="pFw-qR-rev"/>
+                                                            </constraints>
+                                                            <directionalEdgeInsets key="directionalLayoutMargins" top="2" leading="6" bottom="2" trailing="6"/>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="STh-7A-FmP">
+                                                            <rect key="frame" x="0.0" y="471" width="289" height="0.0"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SGZ-Qx-FUC">
+                                                                    <rect key="frame" x="6" y="2" width="277" height="13"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="skeletonCornerRadius">
+                                                                            <real key="value" value="0.0"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                </label>
+                                                            </subviews>
+                                                            <directionalEdgeInsets key="directionalLayoutMargins" top="2" leading="6" bottom="2" trailing="6"/>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="OD0-54-Lr0" firstAttribute="top" secondItem="SLs-9e-CXV" secondAttribute="top" id="Li3-I5-Djk"/>
+                                                <constraint firstItem="OD0-54-Lr0" firstAttribute="leading" secondItem="SLs-9e-CXV" secondAttribute="leading" id="Oez-dv-FP1"/>
+                                                <constraint firstAttribute="trailing" secondItem="OD0-54-Lr0" secondAttribute="trailing" id="hAu-M3-2N1"/>
+                                                <constraint firstAttribute="bottom" secondItem="OD0-54-Lr0" secondAttribute="bottom" id="hSM-Jk-1Tz"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <color key="backgroundColor" red="0.8953583836555481" green="0.95805007219314575" blue="0.97340863943099976" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <size key="customSize" width="289" height="471"/>
+                                        <connections>
+                                            <outlet property="authorLabel" destination="63V-uN-Xrh" id="1QH-2H-kfQ"/>
+                                            <outlet property="coverImage" destination="mPY-Ze-PJK" id="BRs-8H-MBL"/>
+                                            <outlet property="titleLabel" destination="SGZ-Qx-FUC" id="z5q-Og-4LR"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ord-RF-Sy8"/>
+                        <color key="backgroundColor" red="0.8953583836555481" green="0.95805007219314575" blue="0.97340863943099976" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mya-0E-vph" firstAttribute="bottom" secondItem="Ord-RF-Sy8" secondAttribute="bottom" id="QfY-04-ian"/>
+                            <constraint firstItem="Mya-0E-vph" firstAttribute="leading" secondItem="Ord-RF-Sy8" secondAttribute="leading" id="day-Tr-jiC"/>
+                            <constraint firstItem="Mya-0E-vph" firstAttribute="top" secondItem="Ord-RF-Sy8" secondAttribute="top" id="vEf-mv-6GV"/>
+                            <constraint firstItem="Mya-0E-vph" firstAttribute="trailing" secondItem="Ord-RF-Sy8" secondAttribute="trailing" id="x7D-Qy-D8N"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="booksCollectionView" destination="Mya-0E-vph" id="CVN-bP-DDg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lUx-Sv-e1q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-178.40000000000001" y="48.125937031484263"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hp_cover" width="329" height="500"/>
+    </resources>
+</document>
