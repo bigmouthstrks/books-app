@@ -6,6 +6,7 @@
 //
 
 import Alamofire
+import Foundation
 
 // MARK: - StatusCode
 enum StatusCode: Int {

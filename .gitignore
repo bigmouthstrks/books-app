@@ -25,7 +25,6 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
-#Pods/
 
 fastlane/report.xml
 fastlane/Preview.html
@@ -33,5 +32,6 @@ fastlane/screenshots
 fastlane/test_output
 
 *.DS_Store
-#Podfile.lock
-#*.lock
+
+Cartfile.resolved
+Carthage/

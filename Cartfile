@@ -1,0 +1,6 @@
+github "Alamofire/Alamofire" ~> 5.4.3
+github "hackiftekhar/IQKeyboardManager" ~> 6.2.1
+github "onevcat/Kingfisher" ~> 6.3.1
+github "realm/realm-cocoa"
+binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseAnalyticsBinary.json" ~> 8.7.0
+binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseAuthBinary.json" ~> 8.7.0

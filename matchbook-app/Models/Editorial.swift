@@ -6,6 +6,7 @@
 //
 
 import RealmSwift
+import Foundation
 
 // MARK: - Editorial
 final class Editorial: DecodableObject {

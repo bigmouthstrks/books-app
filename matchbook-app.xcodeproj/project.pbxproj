@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -90,6 +90,36 @@
 		B57E809A26EB28200053C3DB /* UserBooksDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E809926EB28200053C3DB /* UserBooksDataManager.swift */; };
 		B57E809C26EB6A900053C3DB /* ProfileImageDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E809B26EB6A900053C3DB /* ProfileImageDataManager.swift */; };
 		B57E809E26EB6AF10053C3DB /* UserImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E809D26EB6AF10053C3DB /* UserImage.swift */; };
+		B58DAB0F26FA5E6B009FEE39 /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAAFE26FA5E6B009FEE39 /* PromisesObjC.xcframework */; };
+		B58DAB1026FA5E6B009FEE39 /* PromisesObjC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAAFE26FA5E6B009FEE39 /* PromisesObjC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B58DAB1126FA5E6B009FEE39 /* FirebaseCoreDiagnostics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAAFF26FA5E6B009FEE39 /* FirebaseCoreDiagnostics.xcframework */; };
+		B58DAB1326FA5E6B009FEE39 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0026FA5E6B009FEE39 /* Alamofire.xcframework */; };
+		B58DAB1426FA5E6B009FEE39 /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0026FA5E6B009FEE39 /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B58DAB1526FA5E6B009FEE39 /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0126FA5E6B009FEE39 /* RealmSwift.xcframework */; };
+		B58DAB1626FA5E6B009FEE39 /* RealmSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0126FA5E6B009FEE39 /* RealmSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B58DAB1726FA5E6B009FEE39 /* GTMSessionFetcher.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0226FA5E6B009FEE39 /* GTMSessionFetcher.xcframework */; };
+		B58DAB1826FA5E6B009FEE39 /* GTMSessionFetcher.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0226FA5E6B009FEE39 /* GTMSessionFetcher.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B58DAB1926FA5E6B009FEE39 /* FirebaseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0326FA5E6B009FEE39 /* FirebaseCore.xcframework */; };
+		B58DAB1B26FA5E6B009FEE39 /* FirebaseInstallations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0426FA5E6B009FEE39 /* FirebaseInstallations.xcframework */; };
+		B58DAB1D26FA5E6B009FEE39 /* GoogleDataTransport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0526FA5E6B009FEE39 /* GoogleDataTransport.xcframework */; };
+		B58DAB1E26FA5E6B009FEE39 /* GoogleDataTransport.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0526FA5E6B009FEE39 /* GoogleDataTransport.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B58DAB1F26FA5E6B009FEE39 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0626FA5E6B009FEE39 /* nanopb.xcframework */; };
+		B58DAB2026FA5E6B009FEE39 /* nanopb.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0626FA5E6B009FEE39 /* nanopb.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B58DAB2126FA5E6B009FEE39 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0726FA5E6B009FEE39 /* GoogleAppMeasurement.xcframework */; };
+		B58DAB2226FA5E6B009FEE39 /* GoogleAppMeasurement.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0726FA5E6B009FEE39 /* GoogleAppMeasurement.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B58DAB2326FA5E6C009FEE39 /* IQKeyboardManager.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0826FA5E6B009FEE39 /* IQKeyboardManager.xcframework */; };
+		B58DAB2426FA5E6C009FEE39 /* IQKeyboardManager.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0826FA5E6B009FEE39 /* IQKeyboardManager.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B58DAB2526FA5E6C009FEE39 /* FirebaseAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0926FA5E6B009FEE39 /* FirebaseAnalytics.xcframework */; };
+		B58DAB2626FA5E6C009FEE39 /* FirebaseAnalytics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0926FA5E6B009FEE39 /* FirebaseAnalytics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B58DAB2726FA5E6C009FEE39 /* IQKeyboardManagerSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0A26FA5E6B009FEE39 /* IQKeyboardManagerSwift.xcframework */; };
+		B58DAB2826FA5E6C009FEE39 /* IQKeyboardManagerSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0A26FA5E6B009FEE39 /* IQKeyboardManagerSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B58DAB2926FA5E6C009FEE39 /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0B26FA5E6B009FEE39 /* Realm.xcframework */; };
+		B58DAB2A26FA5E6C009FEE39 /* Realm.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0B26FA5E6B009FEE39 /* Realm.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B58DAB2B26FA5E6C009FEE39 /* FirebaseAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0C26FA5E6B009FEE39 /* FirebaseAuth.xcframework */; };
+		B58DAB2D26FA5E6C009FEE39 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0D26FA5E6B009FEE39 /* GoogleUtilities.xcframework */; };
+		B58DAB2E26FA5E6C009FEE39 /* GoogleUtilities.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0D26FA5E6B009FEE39 /* GoogleUtilities.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B58DAB2F26FA5E6C009FEE39 /* Kingfisher.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0E26FA5E6B009FEE39 /* Kingfisher.xcframework */; };
+		B58DAB3026FA5E6C009FEE39 /* Kingfisher.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58DAB0E26FA5E6B009FEE39 /* Kingfisher.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B59BA87926D0ADEF005721AE /* CreateAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59BA87326D0ADEF005721AE /* CreateAccount.storyboard */; };
 		B59BA87A26D0ADEF005721AE /* CreateAccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59BA87426D0ADEF005721AE /* CreateAccountPresenter.swift */; };
 		B59BA87B26D0ADEF005721AE /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59BA87526D0ADEF005721AE /* CreateAccountViewController.swift */; };
@@ -116,6 +146,32 @@
 		B5A901A826E188250078CC5F /* BooksRemoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A901A726E188250078CC5F /* BooksRemoteManager.swift */; };
 		B5CEA95526E963C90071B943 /* FavoriteBookItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CEA95426E963C90071B943 /* FavoriteBookItemCell.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B58DAB3126FA5E6C009FEE39 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B58DAB2426FA5E6C009FEE39 /* IQKeyboardManager.xcframework in Embed Frameworks */,
+				B58DAB1426FA5E6B009FEE39 /* Alamofire.xcframework in Embed Frameworks */,
+				B58DAB1E26FA5E6B009FEE39 /* GoogleDataTransport.xcframework in Embed Frameworks */,
+				B58DAB2626FA5E6C009FEE39 /* FirebaseAnalytics.xcframework in Embed Frameworks */,
+				B58DAB1826FA5E6B009FEE39 /* GTMSessionFetcher.xcframework in Embed Frameworks */,
+				B58DAB3026FA5E6C009FEE39 /* Kingfisher.xcframework in Embed Frameworks */,
+				B58DAB2826FA5E6C009FEE39 /* IQKeyboardManagerSwift.xcframework in Embed Frameworks */,
+				B58DAB2226FA5E6B009FEE39 /* GoogleAppMeasurement.xcframework in Embed Frameworks */,
+				B58DAB2E26FA5E6C009FEE39 /* GoogleUtilities.xcframework in Embed Frameworks */,
+				B58DAB2026FA5E6B009FEE39 /* nanopb.xcframework in Embed Frameworks */,
+				B58DAB2A26FA5E6C009FEE39 /* Realm.xcframework in Embed Frameworks */,
+				B58DAB1026FA5E6B009FEE39 /* PromisesObjC.xcframework in Embed Frameworks */,
+				B58DAB1626FA5E6B009FEE39 /* RealmSwift.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B5001ED326CB4C28009CC81E /* Matchbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,6 +259,23 @@
 		B57E809926EB28200053C3DB /* UserBooksDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBooksDataManager.swift; sourceTree = "<group>"; };
 		B57E809B26EB6A900053C3DB /* ProfileImageDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageDataManager.swift; sourceTree = "<group>"; };
 		B57E809D26EB6AF10053C3DB /* UserImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImage.swift; sourceTree = "<group>"; };
+		B58DAAFE26FA5E6B009FEE39 /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PromisesObjC.xcframework; path = Carthage/Build/PromisesObjC.xcframework; sourceTree = "<group>"; };
+		B58DAAFF26FA5E6B009FEE39 /* FirebaseCoreDiagnostics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseCoreDiagnostics.xcframework; path = Carthage/Build/FirebaseCoreDiagnostics.xcframework; sourceTree = "<group>"; };
+		B58DAB0026FA5E6B009FEE39 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
+		B58DAB0126FA5E6B009FEE39 /* RealmSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = Carthage/Build/RealmSwift.xcframework; sourceTree = "<group>"; };
+		B58DAB0226FA5E6B009FEE39 /* GTMSessionFetcher.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GTMSessionFetcher.xcframework; path = Carthage/Build/GTMSessionFetcher.xcframework; sourceTree = "<group>"; };
+		B58DAB0326FA5E6B009FEE39 /* FirebaseCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseCore.xcframework; path = Carthage/Build/FirebaseCore.xcframework; sourceTree = "<group>"; };
+		B58DAB0426FA5E6B009FEE39 /* FirebaseInstallations.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseInstallations.xcframework; path = Carthage/Build/FirebaseInstallations.xcframework; sourceTree = "<group>"; };
+		B58DAB0526FA5E6B009FEE39 /* GoogleDataTransport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleDataTransport.xcframework; path = Carthage/Build/GoogleDataTransport.xcframework; sourceTree = "<group>"; };
+		B58DAB0626FA5E6B009FEE39 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = nanopb.xcframework; path = Carthage/Build/nanopb.xcframework; sourceTree = "<group>"; };
+		B58DAB0726FA5E6B009FEE39 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurement.xcframework; path = Carthage/Build/GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		B58DAB0826FA5E6B009FEE39 /* IQKeyboardManager.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IQKeyboardManager.xcframework; path = Carthage/Build/IQKeyboardManager.xcframework; sourceTree = "<group>"; };
+		B58DAB0926FA5E6B009FEE39 /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAnalytics.xcframework; path = Carthage/Build/FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
+		B58DAB0A26FA5E6B009FEE39 /* IQKeyboardManagerSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IQKeyboardManagerSwift.xcframework; path = Carthage/Build/IQKeyboardManagerSwift.xcframework; sourceTree = "<group>"; };
+		B58DAB0B26FA5E6B009FEE39 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = Carthage/Build/Realm.xcframework; sourceTree = "<group>"; };
+		B58DAB0C26FA5E6B009FEE39 /* FirebaseAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAuth.xcframework; path = Carthage/Build/FirebaseAuth.xcframework; sourceTree = "<group>"; };
+		B58DAB0D26FA5E6B009FEE39 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleUtilities.xcframework; path = Carthage/Build/GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		B58DAB0E26FA5E6B009FEE39 /* Kingfisher.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Kingfisher.xcframework; path = Carthage/Build/Kingfisher.xcframework; sourceTree = "<group>"; };
 		B59BA87326D0ADEF005721AE /* CreateAccount.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateAccount.storyboard; sourceTree = "<group>"; };
 		B59BA87426D0ADEF005721AE /* CreateAccountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountPresenter.swift; sourceTree = "<group>"; };
 		B59BA87526D0ADEF005721AE /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
@@ -235,25 +308,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58DAB2326FA5E6C009FEE39 /* IQKeyboardManager.xcframework in Frameworks */,
+				B58DAB2B26FA5E6C009FEE39 /* FirebaseAuth.xcframework in Frameworks */,
+				B58DAB1326FA5E6B009FEE39 /* Alamofire.xcframework in Frameworks */,
+				B58DAB1926FA5E6B009FEE39 /* FirebaseCore.xcframework in Frameworks */,
+				B58DAB1D26FA5E6B009FEE39 /* GoogleDataTransport.xcframework in Frameworks */,
+				B58DAB1126FA5E6B009FEE39 /* FirebaseCoreDiagnostics.xcframework in Frameworks */,
+				B58DAB2526FA5E6C009FEE39 /* FirebaseAnalytics.xcframework in Frameworks */,
+				B58DAB1726FA5E6B009FEE39 /* GTMSessionFetcher.xcframework in Frameworks */,
+				B58DAB2F26FA5E6C009FEE39 /* Kingfisher.xcframework in Frameworks */,
+				B58DAB2726FA5E6C009FEE39 /* IQKeyboardManagerSwift.xcframework in Frameworks */,
+				B58DAB1B26FA5E6B009FEE39 /* FirebaseInstallations.xcframework in Frameworks */,
+				B58DAB2126FA5E6B009FEE39 /* GoogleAppMeasurement.xcframework in Frameworks */,
+				B58DAB2D26FA5E6C009FEE39 /* GoogleUtilities.xcframework in Frameworks */,
+				B58DAB1F26FA5E6B009FEE39 /* nanopb.xcframework in Frameworks */,
+				B58DAB2926FA5E6C009FEE39 /* Realm.xcframework in Frameworks */,
+				B58DAB0F26FA5E6B009FEE39 /* PromisesObjC.xcframework in Frameworks */,
+				B58DAB1526FA5E6B009FEE39 /* RealmSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		97B5D216E9DCAEBC16D24B03 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		B5001ECA26CB4C28009CC81E = {
 			isa = PBXGroup;
 			children = (
 				B5001ED526CB4C28009CC81E /* matchbook-app */,
 				B5001ED426CB4C28009CC81E /* Products */,
-				97B5D216E9DCAEBC16D24B03 /* Pods */,
+				B58DAAFD26FA5E6B009FEE39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -528,6 +611,30 @@
 			path = EditProfileField;
 			sourceTree = "<group>";
 		};
+		B58DAAFD26FA5E6B009FEE39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B58DAB0026FA5E6B009FEE39 /* Alamofire.xcframework */,
+				B58DAB0926FA5E6B009FEE39 /* FirebaseAnalytics.xcframework */,
+				B58DAB0C26FA5E6B009FEE39 /* FirebaseAuth.xcframework */,
+				B58DAB0326FA5E6B009FEE39 /* FirebaseCore.xcframework */,
+				B58DAAFF26FA5E6B009FEE39 /* FirebaseCoreDiagnostics.xcframework */,
+				B58DAB0426FA5E6B009FEE39 /* FirebaseInstallations.xcframework */,
+				B58DAB0726FA5E6B009FEE39 /* GoogleAppMeasurement.xcframework */,
+				B58DAB0526FA5E6B009FEE39 /* GoogleDataTransport.xcframework */,
+				B58DAB0D26FA5E6B009FEE39 /* GoogleUtilities.xcframework */,
+				B58DAB0226FA5E6B009FEE39 /* GTMSessionFetcher.xcframework */,
+				B58DAB0826FA5E6B009FEE39 /* IQKeyboardManager.xcframework */,
+				B58DAB0A26FA5E6B009FEE39 /* IQKeyboardManagerSwift.xcframework */,
+				B58DAB0E26FA5E6B009FEE39 /* Kingfisher.xcframework */,
+				B58DAB0626FA5E6B009FEE39 /* nanopb.xcframework */,
+				B58DAAFE26FA5E6B009FEE39 /* PromisesObjC.xcframework */,
+				B58DAB0B26FA5E6B009FEE39 /* Realm.xcframework */,
+				B58DAB0126FA5E6B009FEE39 /* RealmSwift.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B59BA87226D0ADD2005721AE /* CreateAccount */ = {
 			isa = PBXGroup;
 			children = (
@@ -583,6 +690,7 @@
 				B5001ECF26CB4C28009CC81E /* Sources */,
 				B5001ED026CB4C28009CC81E /* Frameworks */,
 				B5001ED126CB4C28009CC81E /* Resources */,
+				B58DAB3126FA5E6C009FEE39 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

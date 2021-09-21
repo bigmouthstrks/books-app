@@ -7,7 +7,8 @@
 
 import UIKit
 import IQKeyboardManagerSwift
-import Firebase
+import FirebaseCore
+import FirebaseAnalytics
 import RealmSwift
 import PhotosUI
 
